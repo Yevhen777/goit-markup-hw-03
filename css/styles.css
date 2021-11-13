@@ -156,7 +156,7 @@ body {
 
 /* Виды услуг */
 
-. .title-hedding {
+.title-hedding {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -178,14 +178,6 @@ body {
   color: var(--text-color-main);
 }
 
-.subtitle-team {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.18;
-  letter-spacing: 0.03em;
-  color: var(--text-color-main);
-}
-
 .team-caption {
   font-weight: 500;
   font-size: 16px;
@@ -193,48 +185,14 @@ body {
   letter-spacing: 0.03em;
   color: var(--text-color-main);
 }
-.team-hedding {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.18;
-  letter-spacing: 0.03em;
-  color: var(--text-color-main);
-}
-.team-tite-img {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.18;
-  letter-spacing: 0.03em;
-  color: var(--text-color-main);
-}
 
-.info-tem {
+.info-team {
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
   color: var(--text-color-secondary);
 }
 
-.name-team {
-  font-size: 16px;
-  line-height: 1.18;
-  letter-spacing: 0.03em;
-  color: var(--text-color-secondary);
-}
-
-.name-post {
-  font-size: 16px;
-  line-height: 1.18;
-  letter-spacing: 0.03em;
-  color: var(--text-color-secondary);
-}
-
-.team-work {
-  font-size: 16px;
-  line-height: 1.18;
-  letter-spacing: 0.03em;
-  color: var(--text-color-secondary);
-}
 /* Футер */
 .footer-list {
   background-color: #2f303a;
