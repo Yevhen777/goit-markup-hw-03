@@ -29,6 +29,11 @@ ul {
   margin: 0 auto;
 }
 
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 body {
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
@@ -161,6 +166,10 @@ body {
 
 .hero-btn {
   cursor: pointer;
+}
+
+.hero-container {
+  display: flex;
 }
 
 .hero {
