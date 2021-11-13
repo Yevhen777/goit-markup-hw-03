@@ -7,8 +7,8 @@
     <title>Document</title>
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.css"
-      integrity="sha512-Y0MM+V6ymRKN2zStTqzQ227DWhhp4Mzdo6gnlRnuaNCbc+YN/ZH0sBCLTM4M0oSy9c9VKiCvd4Jk44aCLrNS5Q=="
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
@@ -23,31 +23,35 @@
   </head>
   <body>
     <!--Шапка-->
-    <header>
-      <nav>
-        <a href="" class="logo link"> Web<span class="logo-accent">Studio</span></a>
+    <header class="header-box">
+      <div class="container header-container">
+        <nav class="nav-list">
+          <a href="" class="logo link"> Web<span class="logo-accent">Studio</span></a>
 
-        <ul class="text list">
-          <li>
-            <a href="./index.html" class="link text-nav-one current">Cтудия</a>
-          </li>
-          <li>
-            <a href="./portfolio.html" class="link text-nav-two">Портфолио</a>
-          </li>
-          <li>
-            <a href="" class="link text-nav-tree">Контакты</a>
-          </li>
-        </ul>
-      </nav>
+          <ul class="text list">
+            <li>
+              <a href="./index.html" class="link text-nav-one current">Cтудия</a>
+            </li>
+            <li>
+              <a href="./portfolio.html" class="link text-nav-two">Портфолио</a>
+            </li>
+            <li>
+              <a href="" class="link text-nav-tree">Контакты</a>
+            </li>
+          </ul>
+        </nav>
 
-      <ul class="text list">
-        <li>
-          <a href="" class="link text-mail">info@devstudio.com</a>
-        </li>
-        <li>
-          <a href="" class="link text-tel">tel:+38 096 111 11 11</a>
-        </li>
-      </ul>
+        <div class="contact-text">
+          <ul class="text list">
+            <li>
+              <a href="" class="link text-mail">info@devstudio.com</a>
+            </li>
+            <li>
+              <a href="" class="link text-tel">tel:+38 096 111 11 11</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </header>
 
     <!--Основной заголовок-->

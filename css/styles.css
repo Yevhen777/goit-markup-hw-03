@@ -7,6 +7,28 @@
   --footer-text-color: #2f303a;
 }
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
 body {
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
@@ -25,8 +47,30 @@ body {
   list-style: none;
 }
 
+.header-box {
+  padding-top: 24px;
+  padding-bottom: 25;
+}
+
 /* Site nav */
+
+.text {
+  display: flex;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .logo {
+  margin-right: 93px;
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
@@ -44,6 +88,7 @@ body {
 }
 
 .text-nav-one {
+  margin-right: 50px;
   font-size: 14px;
   font-weight: 500;
   line-height: 1.14;
@@ -62,6 +107,7 @@ body {
 }
 
 .text-nav-two {
+  margin-right: 50px;
   font-size: 14px;
   font-weight: 500;
   line-height: 1.14;
@@ -75,6 +121,7 @@ body {
 }
 
 .text-nav-tree {
+  margin-right: 0;
   font-size: 14px;
   font-weight: 500;
   line-height: 1.14;
@@ -87,7 +134,17 @@ body {
   color: var(--accent-color);
 }
 
+.text-mail {
+  margin-right: 50px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--text-color-secondary);
+}
+
 .text-tel {
+  margin-right: 0;
   font-size: 14px;
   font-weight: 500;
   line-height: 1.14;
