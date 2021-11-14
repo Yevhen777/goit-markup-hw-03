@@ -29,11 +29,6 @@ ul {
   margin: 0 auto;
 }
 
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
 body {
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
@@ -66,21 +61,24 @@ body {
 
 .nav-list {
   display: flex;
+  align-items: center;
 }
 
 .header-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  display: block;
 }
 
 .logo {
-  margin-right: 93px;
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   color: var(--accent-color);
+
+  margin-right: 93px;
 }
 
 .logo-accent {
@@ -93,12 +91,13 @@ body {
 }
 
 .text-nav-one {
-  margin-right: 50px;
   font-size: 14px;
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--text-color-main);
+
+  margin-right: 50px;
 }
 
 .text-nav-one:hover,
@@ -112,12 +111,13 @@ body {
 }
 
 .text-nav-two {
-  margin-right: 50px;
   font-size: 14px;
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--text-color-main);
+
+  margin-right: 50px;
 }
 
 .text-nav-two:hover,
@@ -126,12 +126,13 @@ body {
 }
 
 .text-nav-tree {
-  margin-right: 0;
   font-size: 14px;
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--text-color-main);
+
+  margin-right: 0;
 }
 
 .text-nav-tree:hover,
@@ -140,21 +141,23 @@ body {
 }
 
 .text-mail {
-  margin-right: 50px;
   font-size: 14px;
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--text-color-secondary);
+
+  margin-right: 50px;
 }
 
 .text-tel {
-  margin-right: 0;
   font-size: 14px;
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--text-color-secondary);
+
+  margin-right: 0;
 }
 
 .text-tel:hover,
@@ -169,7 +172,10 @@ body {
 }
 
 .hero-container {
-  display: flex;
+  padding-top: 200px;
+  padding-right: 452px;
+  padding-bottom: 200px;
+  padding-left: 452px;
 }
 
 .hero {
@@ -183,6 +189,8 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--background-color);
+  align-items: center;
+  width: 696px;
 }
 
 .hero-btn {
@@ -196,6 +204,9 @@ body {
 
   border: none;
   border-radius: 4px;
+
+  margin: 30px;
+  width: 200px;
 }
 
 .hero-btn:hover,
@@ -204,6 +215,27 @@ body {
 }
 
 /* Преимущества */
+
+.section-info {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.list-info {
+  display: flex;
+  margin-right: 30px;
+}
+
+.item {
+  margin-right: 30px;
+}
+.item-text {
+  padding-bottom: 10px;
+}
+.list-info {
+  padding-top: 10px;
+}
+
 .item-text {
   font-weight: 700;
   font-size: 14px;
@@ -221,6 +253,21 @@ body {
 }
 
 /* Виды услуг */
+
+.section-heading {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.section-list :not(:last-child) {
+  margin-right: 40px;
+}
+
+.section-list {
+  display: flex;
+}
+.title-hedding {
+  padding-bottom: 50px;
+}
 
 .title-hedding {
   font-weight: 700;
