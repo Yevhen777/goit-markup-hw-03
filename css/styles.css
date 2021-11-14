@@ -225,6 +225,9 @@ body {
   display: flex;
   margin-right: 30px;
 }
+.title-hedding {
+  text-align: center;
+}
 
 .item {
   margin-right: 30px;
@@ -278,6 +281,24 @@ body {
 }
 
 /* Team */
+.section-team {
+  padding-top: 94;
+  padding-bottom: 94;
+}
+
+.team-item {
+  display: flex;
+  margin-right: 30px;
+}
+
+.title-team {
+  text-align: center;
+  padding-bottom: 50;
+}
+
+.team-img:not(:last-child) {
+  margin-right: 30px;
+}
 
 .section-team {
   background-color: #f5f4fa;
