@@ -68,7 +68,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  display: block;
 }
 
 .logo {
@@ -444,6 +443,18 @@ body {
 .list-button {
   cursor: pointer;
 }
+.item-btn {
+  padding-top: 94px;
+}
+
+.btn-all {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.portfolio-btn {
+  margin-right: 8px;
+}
 
 .list-button {
   font-family: Roboto, sans-serif;
@@ -456,12 +467,16 @@ body {
   border: none;
   border-radius: 4px;
 }
-
-.list-button:hover,
+.item-btn .list-button:hover,
 .list-button:focus {
   color: var(--background-color);
 }
 
+/* Работы */
+
+.container-item-title {
+  padding-top: 50px;
+}
 .portfolio-title {
   font-weight: 700;
   font-size: 18px;
