@@ -191,6 +191,10 @@ body {
   align-items: center;
   width: 696px;
 }
+.hero-title {
+  text-align: center;
+  padding-bottom: 30px;
+}
 
 .hero-btn {
   font-family: Roboto, sans-serif;
@@ -501,6 +505,7 @@ body {
 .portfolio-list {
   margin-top: 30px;
   margin-right: 30px;
+  width: 370px;
 }
 .portfolio-title {
   font-weight: 700;
@@ -510,13 +515,18 @@ body {
   color: var(--text-color-main);
 }
 
+.portfolio-title {
+  margin-top: 20px;
+}
 .portfolio-item {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--text-color-secondary);
 }
-
+.portfolio-item {
+  margin-top: 4px;
+}
 .logo {
   font-family: Raleway;
   font-weight: 700;
