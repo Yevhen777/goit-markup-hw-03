@@ -244,16 +244,12 @@ body {
   text-align: center;
 }
 
-.item {
+.item:not(:last-child) {
   margin-right: 30px;
 }
 
 .item-text {
   margin-bottom: 10px;
-}
-
-.list-info {
-  padding-top: 10px;
 }
 
 .item-text {
@@ -285,7 +281,7 @@ body {
   display: flex;
 }
 .title-hedding {
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .title-hedding {
@@ -302,9 +298,11 @@ body {
   padding-bottom: 94px;
 }
 
+.team-item:not(:last-child) {
+  margin-right: 30px;
+}
 .team-item {
   display: flex;
-  margin-right: 30px;
 }
 
 .title-team {
@@ -328,7 +326,7 @@ body {
 }
 
 .item-text-box {
-  padding: 30px 24px;
+  padding: 30px 32px;
 }
 
 .title-team {
@@ -358,12 +356,11 @@ body {
 }
 
 /* Футер */
-
-.footer-container {
-  display: block;
+.footer-list {
   padding-top: 60px;
   padding-bottom: 60px;
 }
+
 .footer-list {
   background-color: #2f303a;
 }
@@ -375,9 +372,7 @@ body {
   line-height: 1.19;
   color: var(--accent-color);
 }
-.logo-back {
-  margin-bottom: 20px;
-}
+
 .logo-accent {
   color: var(--text-color-main);
 }
@@ -396,6 +391,8 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--background-color);
+}
+.address-footer {
   margin-bottom: 9px;
 }
 
